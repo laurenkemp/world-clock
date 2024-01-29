@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500;9..40,700&family=Taviraj:wght@200;500;600&display=swap");
+
+:root {
+  --brand-green: #0e9e54;
+  --brand-light-purple: #f4f2fe;
+  --brand-pink: #f7b1cc;
+  --brand-orange: #f15e22;
+  --box-shadow: 5px 4px 0px black;
+  --primary-font: "DM Sans", sans-serif;
+  --secondary-font: "Taviraj", serif;
+}
+
+body {
+  margin-top: 100px;
+  background: #f3ede5;
+  font: var(--secondary-font);
+}
+
+h1 {
+  font-size: 50px;
+  color: var(--brand-orange);
+  font-family: var(--primary-font);
+  text-align: center;
+}
+
+footer {
+  font: var(--secondary-font);
+  color: var(--brand-orange);
+  text-align: center;
+  font-size: 15px;
+}
