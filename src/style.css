@@ -74,7 +74,7 @@ h2 {
 
 .time small {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1;
   vertical-align: middle;
   text-transform: uppercase;
   margin: 0 10px;
@@ -96,4 +96,49 @@ a {
 
 a:hover {
   color: var(--brand-green);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  select {
+    margin: 20px 0;
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .container {
+    margin-left: 20px;
+    margin-right: 14px;
+  }
+
+  .city {
+    font-size: 10px;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+
+  .time {
+    font-size: 18px;
+  }
+
+  .time small {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+
+  .all-cities-link {
+    font-size: 10px;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 8px;
+  }
 }
