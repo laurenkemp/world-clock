@@ -18,6 +18,17 @@ function updateTime() {
 
   parisDateElement.innerHTML = parisTime.format("MMMM D, YYYY");
   parisTimeElement.innerHTML = parisTime.format("h:mm:ss[<small>]A[</small>]");
+
+  //Manila
+  let manilaElement = document.querySelector("#manila");
+  let manilaDateElement = manilaElement.querySelector(".date");
+  let manilaTimeElement = manilaElement.querySelector(".time");
+  let manilaTime = moment().tz("Asia/Manila");
+
+  manilaDateElement.innerHTML = manilaTime.format("MMMM D, YYYY");
+  manilaTimeElement.innerHTML = manilaTime.format(
+    "h:mm:ss[<small>]A[</small>]"
+  );
 }
 
 function updateCity(event) {
