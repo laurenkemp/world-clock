@@ -22,7 +22,7 @@
 }
 
 body {
-  margin-top: 80px;
+  margin-top: 100px;
   background: var(--brand-purple);
   font-family: var(--primary-font);
 }
@@ -87,4 +87,13 @@ footer {
   font-size: 12px;
   margin-bottom: 0px;
   margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #551a8b;
+}
+
+a:hover {
+  color: var(--brand-green);
 }
